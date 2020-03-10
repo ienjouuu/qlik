@@ -1,13 +1,42 @@
 define( [],
     function ( ) {
-        'use strict';
+		'use strict';
+		console.log('DSDSDSDSDSDSDSDRWHAHAHAHA');
 
         return {
-            definition: {},
-            initialProperties: {},
+            definition: {
+				type: "items",
+				component: "accordion",
+				items: {
+					dimensions: {
+						uses: "dimensions"
+					},
+					measures: {
+						uses: "measures"
+					},
+					sorting: {
+						uses: "sorting"
+					},
+					appearance: {
+						uses: "settings"
+					}
+				}
+			},
+            initialProperties: {
+				qHyperCubeDef: {
+					qDimensions: [],
+					qMeasures: [],
+					qInitialDataFetch: [
+						{
+							qWidth: 10,
+							qHeight: 100
+						}
+					]
+				}
+			},
             paint: function ( $element, layout ) {
 
-                // Your code comes here
+                console.log('Data returned: ', layout.qHyperCube);
 
             }
         };
