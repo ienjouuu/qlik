@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-show-hide-container",
+            "name": "Show/hide container",
+            "source": {
+                "repo": "ShowHide",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "2.13.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-variable-input",
+            "name": "Variable input",
+            "source": {
+                "repo": "qsVariable",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "6.7.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-button-for-navigation",
+            "name": "Button for navigation",
+            "source": {
+                "repo": "sense-navigation",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "2.6.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-date-picker",
+            "name": "Date picker",
+            "source": {
+                "repo": "SenseDateRangePicker",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "2.8.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-tabbed-container",
+            "name": "Tabbed container",
+            "source": {
+                "repo": "Qlik-Sense-Tabs",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "3.15.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-on-demand-reporting",
+            "name": "On demand reporting",
+            "source": {
+                "repo": "nprinting-sense-on-demand",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "2.12.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-share-button",
+            "name": "Share button",
+            "source": {
+                "repo": "Dashboard-Link-Generator",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.29.0"
+        }
+    ],
+    "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A navigation button, a date picker, a slider, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation.",
+    "eula": "generic",
+    "id": "qlik-dashboard-bundle",
+    "name": "Qlik Dashboard bundle"
+}

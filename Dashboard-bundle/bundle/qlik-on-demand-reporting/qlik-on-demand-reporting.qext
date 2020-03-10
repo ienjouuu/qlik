@@ -1,0 +1,22 @@
+{
+    "author": "Bohua Li",
+    "bundle": {
+        "id": "qlik-dashboard-bundle",
+        "name": "Qlik Dashboard bundle",
+        "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A navigation button, a date picker, a slider, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+    },
+    "dependencies": {
+        "qlik-sense": ">=5.5.x"
+    },
+    "description": "Reporting on demand control for Qlik Sense.\nVersion: 2.12.0",
+    "homepage": "https://github.com/bohua/nprinting-sense-on-demand",
+    "icon": "print",
+    "installer": "QlikExtensionBundler",
+    "keywords": "qlik-sense, visualization",
+    "license": "MIT",
+    "name": "On-demand reporting",
+    "preview": "./images/preview.png",
+    "repository": "https://github.com/qlik-oss/nprinting-sense-on-demand/tree/qlik-on-demand-reporting",
+    "type": "visualization",
+    "version": "2.12.0"
+}

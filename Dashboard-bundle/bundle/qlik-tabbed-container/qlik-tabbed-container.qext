@@ -1,0 +1,23 @@
+{
+    "author": "Masaki Hamano",
+    "bundle": {
+        "id": "qlik-dashboard-bundle",
+        "name": "Qlik Dashboard bundle",
+        "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A navigation button, a date picker, a slider, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+    },
+    "dependencies": {
+        "qlik-sense": ">=5.5.x"
+    },
+    "deprecated": "2019-06-27",
+    "description": "An extension which allows you to add a container with tabs.\nVersion: 3.15.0",
+    "homepage": "https://github.com/mhamano/Qlik-Sense-Tabs",
+    "icon": "folder",
+    "installer": "QlikExtensionBundler",
+    "keywords": "qlik-sense, visualization",
+    "license": "MIT",
+    "name": "Tabbed container",
+    "preview": "preview.png",
+    "repository": "https://github.com/qlik-oss/Qlik-Sense-Tabs/tree/qlik-show-hide-container",
+    "type": "visualization",
+    "version": "3.15.0"
+}

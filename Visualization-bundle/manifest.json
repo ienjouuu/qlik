@@ -1,0 +1,162 @@
+{
+    "content": [
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-multi-kpi",
+            "name": "Multi KPI",
+            "source": {
+                "repo": "qsSimpleKPI",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.85.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-heatmap-chart",
+            "name": "Heatmap chart",
+            "source": {
+                "repo": "QlikSense_Extension_2DimHeatmap",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.55.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-word-cloud",
+            "name": "Word cloud chart",
+            "source": {
+                "repo": "br.com.clever.wordcloud",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.30.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-network-chart",
+            "name": "Network chart",
+            "source": {
+                "repo": "network-vis-chart",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.28.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-radar-chart",
+            "name": "Radar chart",
+            "source": {
+                "repo": "D3ImprovedRadarChart",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.35.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-barplus-chart",
+            "name": "Bar plus chart",
+            "source": {
+                "repo": "barsPlus",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.62.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-bullet-chart",
+            "name": "Bullet chart",
+            "source": {
+                "repo": "D3-Bullet-Chart",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.25.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-smart-pivot",
+            "name": "Smart pivot",
+            "source": {
+                "repo": "PLSmartPivot",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.64.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-trellis-container",
+            "name": "Trellis container",
+            "source": {
+                "repo": "qwik-trellis",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.26.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-variance-waterfall",
+            "name": "Variance waterfall",
+            "source": {
+                "repo": "variance-waterfall",
+                "service": "github",
+                "user": "qlik-oss"
+            },
+            "version": "0.12.0"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-sankey-chart-ext",
+            "name": "Sankey chart",
+            "source": {
+                "path": "@qlik/sankey-chart-ext/dist",
+                "service": "npm"
+            },
+            "version": "0.7.13"
+        },
+        {
+            "dependencies": {
+                "qlik-sense": ">=5.5.x"
+            },
+            "id": "qlik-funnel-chart-ext",
+            "name": "Funnel chart",
+            "source": {
+                "path": "@qlik/funnel-chart-ext/dist",
+                "service": "npm"
+            },
+            "version": "0.7.8"
+        }
+    ],
+    "description": "This is a set of supported objects that expands the visualization capabilities of Qlik Sense. These can be used in addition to the objects found under 'Charts'. For support conditions and limitations, see the documentation.",
+    "eula": "generic",
+    "id": "qlik-visualization-bundle",
+    "name": "Qlik Visualization bundle"
+}

@@ -1,0 +1,32 @@
+{
+    "author": "Stefan Walther",
+    "bundle": {
+        "id": "qlik-dashboard-bundle",
+        "name": "Qlik Dashboard bundle",
+        "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A navigation button, a date picker, a slider, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+    },
+    "dependencies": {
+        "qlik-sense": ">=5.5.x"
+    },
+    "description": "Enhance your app with buttons and actions.\nVersion: 2.6.0",
+    "homepage": "https://github.com/stefanwalther/sense-navigation",
+    "icon": "align-object-center",
+    "installer": "QlikExtensionBundler",
+    "keywords": [
+        "actions",
+        "bootstrap",
+        "button",
+        "navigation",
+        "qlik",
+        "qlik-sense",
+        "qlik-sense-visualization-extension",
+        "sense",
+        "sheets"
+    ],
+    "license": "MIT",
+    "name": "Button for navigation",
+    "preview": "qlik-button-for-navigation.png",
+    "repository": "",
+    "type": "visualization",
+    "version": "2.6.0"
+}

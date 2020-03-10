@@ -1,0 +1,22 @@
+{
+    "author": "Fady Heiba <fadyheiba@gmail.com>",
+    "bundle": {
+        "id": "qlik-dashboard-bundle",
+        "name": "Qlik Dashboard bundle",
+        "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A navigation button, a date picker, a slider, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+    },
+    "dependencies": {
+        "qlik-sense": ">=5.5.x"
+    },
+    "description": "A button that creates links so that the current sheet and selections can be shared with others.\nVersion: 0.29.0",
+    "homepage": "",
+    "icon": "share",
+    "installer": "QlikExtensionBundler",
+    "keywords": "qlik-sense, visualization",
+    "license": "MIT",
+    "name": "Share button",
+    "preview": "sharebutton.png",
+    "repository": "https://github.com/qlik-oss/Dashboard-Link-Generator",
+    "type": "visualization",
+    "version": "0.29.0"
+}

@@ -1,0 +1,25 @@
+{
+    "author": "Erik Wetterberg upper88.com",
+    "bundle": {
+        "id": "qlik-dashboard-bundle",
+        "name": "Qlik Dashboard bundle",
+        "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A navigation button, a date picker, a slider, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+    },
+    "contributors": [
+        "Brett Farley contextbi.com"
+    ],
+    "dependencies": {
+        "qlik-sense": ">=5.5.x"
+    },
+    "description": "A control that assigns a value to a variable.\nVersion: 6.7.0",
+    "homepage": "https://github.com/erikwett/qsVariable",
+    "icon": "control",
+    "installer": "QlikExtensionBundler",
+    "keywords": "qlik-sense, visualization",
+    "license": "MIT",
+    "name": "Variable input",
+    "preview": "preview.png",
+    "repository": "",
+    "type": "visualization",
+    "version": "6.7.0"
+}

@@ -1,0 +1,22 @@
+{
+    "author": "Nodier Torres",
+    "bundle": {
+        "id": "qlik-dashboard-bundle",
+        "name": "Qlik Dashboard bundle",
+        "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A navigation button, a date picker, a slider, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+    },
+    "dependencies": {
+        "qlik-sense": ">=5.5.x"
+    },
+    "description": "A calendar object that allows a user to make selections in a date field.\nVersion: 2.8.0",
+    "homepage": "http://branch.qlik.com/#/project/5697a878dcc497f80ed514bf",
+    "icon": "calendar",
+    "installer": "QlikExtensionBundler",
+    "keywords": "qlik-sense, visualization",
+    "license": "MIT",
+    "name": "Date picker",
+    "preview": "preview.png",
+    "repository": "https://github.com/qlik-oss/SenseDateRangePicker/tree/qlik-date-picker",
+    "type": "visualization",
+    "version": "2.8.0"
+}
