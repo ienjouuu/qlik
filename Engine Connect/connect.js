@@ -40,19 +40,22 @@ var msg3 = {
 var ws = new WebSocket("ws://localhost:4848/app/");
 
 ws.onopen = function () {
-    console.log("Соединение установлено.");
-        ws.send(JSON.stringify(msg));      
+	console.log("Соединение установлено.");
+	ws.send(JSON.stringify(msg));
 };
 
 ws.onmessage = function (event) {
-    let MESSAGE = (JSON.parse(event.data));
-    console.log(MESSAGE);
-    switch (MESSAGE.id) {
-        case 1:
-            ws.send(JSON.stringify(msg2));
-            break;
-        case 2:
-            ws.send(JSON.stringify(msg3));
-            break;        
-    }
+	let MESSAGE = (JSON.parse(event.data));
+	let messageElem = document.createElement('div');
+	messageElem.textContent = MESSAGE;
+	document.getElementById('messages').prepend(messageElem);
+	console.log(MESSAGE);
+	switch (MESSAGE.id) {
+		case 1:
+			ws.send(JSON.stringify(msg2));
+			break;
+		case 2:
+			ws.send(JSON.stringify(msg3));
+			break;
+	}
 };
